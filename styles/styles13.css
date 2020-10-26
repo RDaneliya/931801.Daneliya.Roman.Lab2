@@ -6,6 +6,10 @@ div {
   border: 1px solid green;
 }
 
+p{
+  margin: 0;
+}
+
 nav {
   background-color: bisque;
   -moz-box-sizing: border-box;
