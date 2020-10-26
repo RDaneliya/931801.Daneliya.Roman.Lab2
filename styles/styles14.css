@@ -1,0 +1,49 @@
+body{
+  width: 420px;
+}
+
+div {
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid green;
+}
+
+nav {
+  background-color: bisque;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 200px;
+  flex-shrink: 0;
+  height: max-content;
+  margin-right: 5px;
+}
+
+main {
+  background-color: darkgray;
+  margin-right: 5px;
+  min-width: 400px;
+}
+
+@media screen and (max-width: 620px) {
+  div{
+    flex-wrap: wrap;
+  }
+  main{
+    max-width: 380px;
+  }
+  ul{
+    margin: 0;
+  }
+  ul li{
+    display: inline;
+    margin: 0;
+  }
+  nav{
+    margin: 15px 0;
+    height: auto;
+    width: 100%;
+  }
+}
