@@ -1,0 +1,21 @@
+body {
+  column-count: 1;
+}
+
+#floatbox {
+  background-color: aquamarine;
+  margin: 20px;
+  height: 100px;
+  width: 180px;
+  float: left;
+}
+
+#floatbox > p {
+  margin: 0;
+}
+
+#clearbox {
+  background-color: bisque;
+  padding: 0 10px;
+  clear: both;
+}
