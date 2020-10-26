@@ -1,0 +1,19 @@
+p{
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container > div {
+  background-color: aquamarine;
+  width: 200px;
+  height: 100px;
+  margin: 1em;
+}
+
+.clear {
+  background-color: bisque;
+}
