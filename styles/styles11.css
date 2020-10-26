@@ -1,0 +1,10 @@
+main{
+  background-color: aqua;
+  border: 1px solid green;
+  display: flex;
+  justify-content: space-between;
+}
+
+main > img{
+  flex-shrink: 0;
+}
